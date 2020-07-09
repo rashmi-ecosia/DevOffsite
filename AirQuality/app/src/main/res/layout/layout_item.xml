@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentpanel"
+    android:layout_marginTop="@dimen/item_margintop"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city"
+        android:id="@+id/city"
+        android:textColor="@color/teal"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/item_marginleft"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/title_text_size"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/country"
+        android:id="@+id/country"
+        android:textColor="@color/teal"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/item_marginleft"
+        android:layout_below="@+id/city"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/header_text_size"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:id="@+id/location"
+        android:textColor="@color/teal"
+        android:textStyle="italic"
+        android:layout_marginLeft="@dimen/item_marginleft"
+        android:layout_below="@+id/country"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/header2_text_size"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/parameter"
+        android:id="@+id/parameter"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_marginLeft="@dimen/item_marginleft"
+        android:layout_below="@+id/location"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/normal_text_size"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

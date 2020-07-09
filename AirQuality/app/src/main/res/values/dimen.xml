@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="recycler_padding">10dp</dimen>
+    <dimen name="item_margintop">10dp</dimen>
+    <dimen name="divider">1dp</dimen>
+    <dimen name="item_marginleft">5dp</dimen>
+    <dimen name="title_text_size">24sp</dimen>
+    <dimen name="header_text_size">20sp</dimen>
+    <dimen name="header2_text_size">18sp</dimen>
+    <dimen name="normal_text_size">16sp</dimen>
+</resources>
